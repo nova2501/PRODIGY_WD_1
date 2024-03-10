@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+   
+    <link rel="icon" href="/img/tamil.png">
+    <link rel="stylesheet" href="homecss.css">
+    <link rel="stylesheet" href="contact.css">
+    
+</head>
+<body>
+  
+    <nav class="navbar" id="navbar">
+        <img src="/img/tamilnadulogo.png" alt="tamilnadu" width="50px">
+        <h1 class="logo">Best Heading for Tamil Nadu</h1>
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="famous.html">Famous</a></li>
+            <li><a href="thirunelveli.html">Explore</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+
+
+    <div class="contact-heading">
+        <h1>Contact Us</h1>
+    </div>
+    <div class="container">
+
+    <div class="contact-details" >
+        <div class="address">
+            <h6>  Office Address </h6>
+                <p>Tamil Nadu Startup and Innovation Mission,
+                    Entrepreneurship Development And Innovation Institute, Parthasarathy St, Hindustan Teleprinters Staff Quarters, SIDCO Industrial Estate, Guindy, Chennai, Tamil Nadu 600032</p>
+                
+                <p>Email: support@startuptn.in,</p>
+            <p>Contact: +91 44 22256789</p>
+
+
+        </div>
+        <div class="sumbit-details">
+            <div class="label">
+                Your name <br>
+                <input type="text" size="40" placeholder="Enter the name" style="background-color:  rgb(240,241,246);">
+            </div>
+            <div class="label">
+                Your email <br>
+                <input type="text" size="40" placeholder="Enter the email" style="background-color:  rgb(240,241,246);">
+            </div>
+            <div class="label">
+                Your message(optional) <br>
+                <input type="text" size="40" placeholder="" style="background-color:  rgb(240,241,246); height: 100px;">
+            </div>
+            <div class="label" style="text-align: center; width: 400px;">
+                <button>Submit</button>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<div id="map" style="height: 400px;"></div>
+ 
+<!--Add a script by google -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCEWTYaNVFkIYkcxTALWjfoQtIBeeOypVk&callback=initMap&libraries=&v=weekly" async></script>
+
+
+<script>
+
+    // Initialize and add the map
+    function initMap() {
+
+        // The location of Geeksforgeeks office
+        const gfg_office = {
+            lat: 28.50231,
+            lng: 77.40548
+        };
+
+        // Create the map, centered at gfg_office
+        const map = new google.maps.Map(
+                document.getElementById("map"), {
+
+            // Set the zoom of the map
+            zoom: 17.56,
+            center: gfg_office,
+        });
+    }
+</script>
+
+ 
+
+
+<div class="footer_main">
+    <div class="foot_sub">
+        <div class="footer_row" style="margin-right: 30px;">
+            <h5>Company</h5>
+            <a href="#">Who we are</a><br>
+            <a href="#">How we print and manufacture</a><br>
+            <a href="#">What makes us different</a><br>
+            <a href="#">Who we work for</a><br>
+            <a href="#">Join the family</a><br>
+            <a href="#">Terms and Conditions</a>
+        </div>
+        <div class="row2">
+            <h5>Support</h5>
+            <a href="#">My Account</a><br>
+            <a href="#">Size Chart</a>  <br>
+            <a href="#">Frequently Asked Questions</a><br>
+            <a href="#">Blog</a><br>
+            <a href="#">Privacy Policy</a><br>
+            <a href="#">Contact Us</a><br>
+        </div> 
+    </div>
+    <div class="Imaginaton">
+        <div class="imagie_text"><h4>We Can Create Your Imagination Into Reality</h4></div>
+        <div class="socialmedia">
+            <div class="insta"><a href="https://www.instagram.com/"><img src="OIP-removebg-preview.png" alt=""></a></div>
+            <div class="facebook"><a href="https://www.facebook.com/"><img src="facebook-logo-png-transparent-background-black-1-removebg-preview.png" alt=""></a></div>
+            <div class="whatsapp"><a href="https://www.whatsapp.com/"><img src="OIP__1_-removebg-preview.png" alt=""></a></div>
+            <div class="gmail"><a href="https://mail.google.com/mail/u/0/#inbox"><img src="OIP__3_-removebg-preview.png" alt=""></a></div>
+        </div>
+    </div>
+    
+</div>
+<div class="copyright" style="background-color: black; color: white; text-align: center; padding: 10px; margin-top: 3px;"><p>Copyright © 2024 Custprint. All Rights Reserved. | Sitemap</p></div>
+
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+
+.district
+{
+        display: flex; 
+        flex-direction: column;
+        justify-content: space-between;
+    
+        margin-left: 20px;
+        position: relative; 
+        margin-bottom: 20px; 
+}
+
+.district div{
+    
+        margin:15px;
+       
+}
+
+
+body
+{
+    
+    background-image: linear-gradient(to right, rgb(229, 154, 55),rgb(195, 200, 159),rgb(53, 207, 55));
+    background-size: cover;
+   
+}
+.district-part
+{
+    background-color: blanchedalmond;
+    width: 260px;
+    height: 140px;
+    justify-content: center;
+}
+.district-part div{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 0px;
+    margin-top: 145px;
+    font-weight: bold; 
+    border-radius: 10px;
+    border: 2px solid black;
+}
+:hover.district-part div
+{
+    background-color: rgb(51, 185, 209);
+    color: beige;
+}
+.district-part a{
+    padding: 2px;
+    letter-spacing: 2px;
+    color: rgb(29, 32, 206);
+    font-weight: bold;
+}
+.district-row1
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+/* repsonsive */
+
+/* For screens smaller than 600px (e.g., smartphones) */
+@media (max-width: 600px) {
+    .district {
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .district-row1 {
+        flex-wrap: wrap;
+    }
+    .district-part {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .district-part div {
+        margin-top: 0;
+    }
+}
+
+/* For screens between 600px and 900px (e.g., tablets) */
+@media (min-width: 600px) and (max-width: 900px) {
+    .district-row1 {
+        flex-wrap: wrap;
+    }
+    .district-part {
+       
+        margin: 10px 0;
+    }
+}
+
+/* For screens larger than 900px (e.g., desktops) */
+@media (min-width: 100px) {
+    .district-row1 {
+        flex-wrap: wrap;
+    }
+}

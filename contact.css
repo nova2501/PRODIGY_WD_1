@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body
+{
+    background-image: none;
+}
+.navbar
+{
+    background-color: rgb(223, 219, 219);
+   /*.. background-color: rgba(20, 19, 19, 0.6);..*/
+   color: black;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: rgba(89, 81, 81, 0.6);
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+    
+}
+
+/* contact us stylibng*...*/
+
+.contact-heading
+{
+    background-color:  rgb(249, 243, 252);
+    padding: 30px;
+    text-align: center;
+    
+   
+   
+}
+.contact-heading h1{
+    color: #242424;
+    font-family: Montserrat;
+    font-size: 41px;
+    line-height: 1.3;
+}
+
+.container
+{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color:  rgb(225, 229, 253);
+    margin-top: 60px;
+}
+
+.contact-details
+{
+    
+    width: 70%;
+    border-radius: 10px;
+    display: flex;
+    height: 500px;
+    text-align: center;
+    margin: 60px;
+}
+
+.address
+{
+    width: 50%;
+   
+    border-radius: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+.address h6
+{
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+.address p{
+    color: #4D4D4D;
+    font-family: Montserrat;
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 600;
+    padding-right: 40px;
+}
+
+
+.sumbit-details
+{
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+   
+    padding: 55px 49px 25px;
+    height: fit-content;
+}
+.label
+{
+    text-align: left;
+    color: #4D4D4D;
+    font-family: Montserrat;
+    width: fit-content;
+    font-size: 14px;
+    font-weight: 490;
+    margin-bottom: 20px;
+    
+    
+}
+.label input{
+    margin-top: 5px;
+    padding: 0px 20px;
+    margin-bottom: 6px;
+    width: 430px;
+    letter-spacing: 2px;
+    font-size: 12px;
+    height: 60px;
+    border-color: #f0e9e9;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px 3px rgb(216, 210, 210);
+}
+
+.label button{
+    padding: 12px 30px;
+    font-family: Montserrat;
+    font-weight: bold;
+    background-color: #2B377A;
+    color: white;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    
+}
+
+.label button:hover{
+    background-color: rgb(208, 60, 60);
+
+}
+
+
+/*footer.....*/
+
+.footer_main {
+    background-image: url(img/footer_images.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 40px;
+    text-align: center;
+    display: flex;
+    position: fi;
+    bottom: 0;
+
+}
+.foot_sub
+{
+    display: flex;
+    flex-direction: row;
+    
+   
+}
+
+.footer_main h5 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: "Cabin", sans-serif;
+    font-weight: bold;
+}
+
+.footer_row a, .row2 a {
+    color: rgba(16, 11, 108, 0.75);
+    line-height: 1.1;
+    display: block;
+    font-weight: bold;
+}
+
+.footer_main a:hover {
+    color: #00060b;
+}
+
+.Imaginaton {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
+
+.Imaginaton h4 {
+    color: #030f3a;
+    font-family: "Cabin", sans-serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+   
+    
+}
+
+.Imaginaton img {
+    width: 30px;
+    height: 30px;
+    margin-right: 19px;
+    margin-top: 5px;
+}
+
+.socialmedia {
+    display: flex;
+    
+}
+
+.socialmedia div {
+    margin-right: 10px;
+}
+
+.socialmedia img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer_main p {
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+/*....Map-details..*/
+
+
+/* For screens smaller than 768px (tablets) */
+@media (max-width: 768px) {
+    .nav-links {
+      flex-direction: column;
+      align-items: center;
+    }
+    .nav-links li {
+      margin: 10px 0;
+    }
+    .label input {
+      width: 100%;
+    }
+  }
+  /* For screens smaller than 768px (tablets) */
+@media (max-width: 768px) {
+    .label button {
+        padding: 10px 20px; /* Adjust padding as needed */
+        font-size: 14px; /* Adjust font size as needed */
+    }
+}
+
+  

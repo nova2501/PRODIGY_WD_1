@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(/img/india.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 10px;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: black;
+}
+
+.logo {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
+.content {
+    padding: 10px;
+    text-align: center;
+    color: black; /* Change font color to black for better readability on pink background */
+}
+
+.content1 {
+    text-align: center;
+    color: black; /* Change font color to black for better readability on pink background */
+}
+
+.content1 button {
+    padding: 10px;
+    border-radius: 60px;
+    font-size: 20px;
+    background-color: yellowgreen;
+    font-family: "Satisfy", cursive;
+    font-weight: bold;
+    text-align: center;
+    color: black; /* Change font color to black for better readability on pink background */
+}
+
+.content1 button:hover {
+    padding: 10px;
+    border-radius: 60px;
+    font-size: 20px;
+    background-color: rgb(12, 9, 201);
+    font-family: "Satisfy", cursive;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    color: rgb(255, 255, 255); /* Change font color to black for better readability on pink background */
+}
+
+.content h1 {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 25px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: rgb(220, 252, 252);
+    font-weight: bold;
+}
+
+.content h2 {
+    font-family: "Satisfy", cursive;
+    font-size: 42px;
+    margin-bottom: 20px;
+    color: rgb(9, 10, 8);
+    background-color: rgb(207, 101, 101);
+    background-color: transparent;
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        padding: 10px;
+    }
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-links li {
+        margin: 5px 0;
+    }
+    .cont1 {
+        margin-right: 0;
+    }
+}
+
+/* Add this CSS to your styles.css file */
+@media (max-width: 1250px) {
+    
+    .navbar {
+        background-color: rgba(72, 30, 30, 1.0); /* Make the body transparent */
+        
+        
+    }
+}

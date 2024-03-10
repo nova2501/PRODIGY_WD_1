@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: rgb(255, 253, 250);
+}
+.tamilnadu-heading
+{
+    text-align: center;
+    padding: 60px;
+    
+}
+.tamilnadu-heading h1
+{
+    font-family: "DM Serif Display", serif;
+    font-size: 45px;
+    
+
+}
+
+.contain-body
+{
+    
+    padding-left: 220px;
+    
+}
+.image-contain-body
+{
+   
+    width: fit-content;
+    height: fit-content;
+    overflow: hidden;
+    
+}
+.image-contain-body img
+{
+    transition: transform 0.6s ease-in-out;
+}
+
+.image-contain-body img:hover
+{
+    transform: scale(1.2);
+}
+
+
+
+.contain-content
+{
+    width:1100px;
+    height:500px;
+    line-height: 1.6;
+    padding-top: 30px;
+    
+}
+.contain-content p{
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-size: 16px;
+    color: rgb(81, 80, 80);
+   
+
+}
+
+.visit-details
+{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.visit-heading p
+{
+    padding-top: 2px;
+    line-height: 1.6;
+    padding-bottom: 35px;
+}
+.visit-heading h1
+{
+    font-family: "DM Serif Display", serif;
+    font-size: 37px;
+
+}
+.img-row1
+{
+    display: flex;
+    
+    
+}
+.img-1 img{
+    width: 330px;
+    height: 300px;
+   
+}
+.img-2 img
+{
+    width: 700px;
+    height: 400px;
+    padding: 0px 40px 40px 0px;
+}
+
+.img-1
+{
+    position: relative;
+    color: white;
+    width: 330px;
+    height: 300px;
+    background-color: blue;
+    overflow: hidden;
+    margin: 0px 40px 40px 0px;
+}
+.img-2
+{
+    position: relative;
+    color: white;
+    width: 600px;
+    height: 300px;
+    background-color: blue;
+    overflow: hidden;
+    margin: 0px 40px 40px 0px;
+}
+
+.img-1 img
+{
+    transition: transform 0.6s ease-in-out;
+}
+
+.img-1 img:hover
+{
+    transform: scale(1.2);
+    
+}
+.img-2 img
+{
+    transition: transform 0.6s ease-in-out;
+}
+
+.img-2 img:hover
+{
+    transform: scale(1.2);
+}
+
+.bottom-left
+{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.bottom-left h3{
+    font-size: 25px;
+    font-family: "DM Serif Display", serif;
+    letter-spacing: 1px;
+
+}
+.bottom-left:hover
+{
+    bottom: 20px;
+}
